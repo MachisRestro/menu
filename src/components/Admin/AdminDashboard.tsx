@@ -25,7 +25,7 @@ const AdminDashboard = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const itemsPerPage = 15; // pagination limit
-  const SHEET_API_URL = "/submit"; // your backend API endpoint
+  const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxZ9_-fkYafvQU11aPWESzlfWQIOwzryJul9HkCrKqJFt97sIk7ursBIvFB7lF4T985/exec"; // your backend API endpoint
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
